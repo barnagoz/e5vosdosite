@@ -39,7 +39,7 @@ jobs:
                   envkey_APP_ENV: production
                   envkey_APP_KEY: ${{secrets.APP_KEY}}
                   envkey_APP_DEBUG: false
-                  envkey_APP_DOMAIN: e5vosdo.hu
+                  envkey_APP_DOMAIN: epas.e5vosdo.hu
                   envkey_APP_URL: 'https://${APP_DOMAIN}'
                   envkey_VITE_BACKEND: '${APP_URL}'
                   envkey_LOG_CHANNEL: stack
